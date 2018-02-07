@@ -1,0 +1,4 @@
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\bin\Release\Domain.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\bin\Release\Domain.pdb
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\obj\Release\Domain.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\obj\Release\Domain.pdb

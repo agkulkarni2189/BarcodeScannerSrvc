@@ -1,0 +1,358 @@
+﻿Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Creating EventLog source Service2 in log Application...
+Rolling back assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Restoring event log to previous state for source Service2.
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Attempt to stop service Service2.
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Warning: The source Service2 is not registered on the local machine.
+Service Service2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Attempt to stop service Service2.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Creating EventLog source Service2 in log Application...
+Rolling back assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Restoring event log to previous state for source Service2.
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Attempt to stop service Service2.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Attempt to stop service Service2.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Attempt to stop service Service2.
+Installing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Installing service Service2...
+Service Service2 has been successfully installed.
+Creating EventLog source Service2 in log Application...
+Committing assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Uninstalling assembly 'D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+   logfile = D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.InstallLog
+Removing EventLog source Service2.
+Service Service2 is being removed from the system...
+Service Service2 was successfully removed from the system.
+Attempt to stop service Service2.

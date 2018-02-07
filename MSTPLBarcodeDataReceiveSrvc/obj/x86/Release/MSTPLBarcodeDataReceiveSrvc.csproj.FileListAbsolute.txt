@@ -1,0 +1,1 @@
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Release\MSTPLBarcodeDataReceiveSrvc.exe.config

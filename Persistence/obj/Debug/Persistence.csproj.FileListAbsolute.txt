@@ -1,0 +1,10 @@
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Persistence\bin\Debug\NLog.config
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Persistence\bin\Debug\Persistence.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Persistence\bin\Debug\Persistence.pdb
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Persistence\bin\Debug\Domain.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Persistence\bin\Debug\NLog.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Persistence\bin\Debug\Domain.pdb
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Persistence\bin\Debug\NLog.xml
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Persistence\obj\Debug\Persistence.csprojResolveAssemblyReference.cache
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Persistence\obj\Debug\Persistence.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Persistence\obj\Debug\Persistence.pdb

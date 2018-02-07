@@ -1,0 +1,6 @@
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\bin\x64\Release\Domain.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\bin\x64\Release\Domain.pdb
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\obj\x64\Release\Domain.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\obj\x64\Release\Domain.pdb
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\obj\x64\Release\Domain.csprojResolveAssemblyReference.cache
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\obj\x64\Release\Domain.csproj.CoreCompileInputs.cache

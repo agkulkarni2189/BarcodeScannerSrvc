@@ -1,0 +1,4 @@
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\bin\x64\Debug\Domain.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\bin\x64\Debug\Domain.pdb
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\obj\x64\Debug\Domain.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\Domain\obj\x64\Debug\Domain.pdb

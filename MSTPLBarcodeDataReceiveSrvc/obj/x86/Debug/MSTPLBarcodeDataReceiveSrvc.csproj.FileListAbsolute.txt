@@ -1,0 +1,32 @@
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\NLog.config
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\MSTPLBarcodeDataReceiveSrvc.exe.config
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\MSTPLBarcodeDataReceiveSrvc.exe
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\MSTPLBarcodeDataReceiveSrvc.pdb
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\Domain.dll
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\NLog.dll
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\Persistence.dll
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\Domain.pdb
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\NLog.xml
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\Persistence.pdb
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataReceiveSrvc.ProjectInstaller.resources
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataReceiveSrvc.csproj.GenerateResource.Cache
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataReceiveSrvc.exe
+C:\Users\Sipl-Sonal\Documents\Visual Studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataReceiveSrvc.pdb
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\NLog.config
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\MSTPLBarcodeDataReceiveSrvc.exe.config
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\MSTPLBarcodeDataReceiveSrvc.exe
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\MSTPLBarcodeDataReceiveSrvc.pdb
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\Domain.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\EPPlus.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\NLog.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\Persistence.dll
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\Domain.pdb
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\EPPlus.xml
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\NLog.xml
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\bin\Debug\Persistence.pdb
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataReceiveSrvc.csprojResolveAssemblyReference.cache
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataReceiveSrvc.ProjectInstaller.resources
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataReceiveSrvc.csproj.GenerateResource.Cache
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataReceiveSrvc.exe
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataReceiveSrvc.pdb

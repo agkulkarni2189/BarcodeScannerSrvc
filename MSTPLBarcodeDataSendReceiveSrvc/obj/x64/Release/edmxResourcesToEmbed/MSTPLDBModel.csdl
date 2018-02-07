@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MSTPLFixedBarcodeReaderDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BarcodeReaderMaster">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SerialNumber" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Manufacturer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModelNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreationTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="LaminatorBarcodeReaderMappingMasters" Relationship="Self.FK_BarcodeReader_LaminatorBarcodeReaderMappingMaster" FromRole="BarcodeReaderMaster" ToRole="LaminatorBarcodeReaderMappingMaster" />
+  </EntityType>
+  <EntityType Name="DeviceMaster">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IPV4Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MACAddress" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="LaminatorBarcodeReaderMappingMasters" Relationship="Self.FK_LaminatorBarcodeReaderMappingMaster_DeviceMaster" FromRole="DeviceMaster" ToRole="LaminatorBarcodeReaderMappingMaster" />
+  </EntityType>
+  <EntityType Name="ErrorCodeMaster">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Message" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Transaction_Table" Relationship="Self.FK_Transaction_Table_ErrorCodeMaster" FromRole="ErrorCodeMaster" ToRole="Transaction_Table" />
+  </EntityType>
+  <EntityType Name="LaminatorBarcodeReaderMappingMaster">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LaminatorID" Type="Int32" Nullable="false" />
+    <Property Name="BarcodeReaderID" Type="Int32" Nullable="false" />
+    <Property Name="DeviceID" Type="Int32" />
+    <NavigationProperty Name="BarcodeReaderMaster" Relationship="Self.FK_BarcodeReader_LaminatorBarcodeReaderMappingMaster" FromRole="LaminatorBarcodeReaderMappingMaster" ToRole="BarcodeReaderMaster" />
+    <NavigationProperty Name="DeviceMaster" Relationship="Self.FK_LaminatorBarcodeReaderMappingMaster_DeviceMaster" FromRole="LaminatorBarcodeReaderMappingMaster" ToRole="DeviceMaster" />
+    <NavigationProperty Name="LaminatorMaster" Relationship="Self.FK_LaminatorMaster_LaminatorBarcodeReaderMappingMaster" FromRole="LaminatorBarcodeReaderMappingMaster" ToRole="LaminatorMaster" />
+    <NavigationProperty Name="Transaction_Table" Relationship="Self.FK_Transaction_Table_LaminatorBarcodeReaderMappingMaster" FromRole="LaminatorBarcodeReaderMappingMaster" ToRole="Transaction_Table" />
+  </EntityType>
+  <EntityType Name="LaminatorMaster">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LaminatorNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreationTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="LaminatorBarcodeReaderMappingMasters" Relationship="Self.FK_LaminatorMaster_LaminatorBarcodeReaderMappingMaster" FromRole="LaminatorMaster" ToRole="LaminatorBarcodeReaderMappingMaster" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Transaction_Table">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Module_Serial_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CreationTime" Type="DateTime" Precision="3" />
+    <Property Name="LaminatorBarcodeReaderMappingID" Type="Int32" Nullable="false" />
+    <Property Name="Displayed" Type="Boolean" Nullable="false" />
+    <Property Name="ErrorID" Type="Int32" />
+    <Property Name="IsErrorResolved" Type="Boolean" />
+    <NavigationProperty Name="ErrorCodeMaster" Relationship="Self.FK_Transaction_Table_ErrorCodeMaster" FromRole="Transaction_Table" ToRole="ErrorCodeMaster" />
+    <NavigationProperty Name="LaminatorBarcodeReaderMappingMaster" Relationship="Self.FK_Transaction_Table_LaminatorBarcodeReaderMappingMaster" FromRole="Transaction_Table" ToRole="LaminatorBarcodeReaderMappingMaster" />
+  </EntityType>
+  <EntityType Name="UserMaster">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IsLoggedIn" Type="Boolean" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_BarcodeReader_LaminatorBarcodeReaderMappingMaster">
+    <End Role="BarcodeReaderMaster" Type="Self.BarcodeReaderMaster" Multiplicity="1" />
+    <End Role="LaminatorBarcodeReaderMappingMaster" Type="Self.LaminatorBarcodeReaderMappingMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BarcodeReaderMaster">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="LaminatorBarcodeReaderMappingMaster">
+        <PropertyRef Name="BarcodeReaderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LaminatorBarcodeReaderMappingMaster_DeviceMaster">
+    <End Role="DeviceMaster" Type="Self.DeviceMaster" Multiplicity="0..1" />
+    <End Role="LaminatorBarcodeReaderMappingMaster" Type="Self.LaminatorBarcodeReaderMappingMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DeviceMaster">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="LaminatorBarcodeReaderMappingMaster">
+        <PropertyRef Name="DeviceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaction_Table_ErrorCodeMaster">
+    <End Role="ErrorCodeMaster" Type="Self.ErrorCodeMaster" Multiplicity="0..1" />
+    <End Role="Transaction_Table" Type="Self.Transaction_Table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ErrorCodeMaster">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Transaction_Table">
+        <PropertyRef Name="ErrorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LaminatorMaster_LaminatorBarcodeReaderMappingMaster">
+    <End Role="LaminatorMaster" Type="Self.LaminatorMaster" Multiplicity="1" />
+    <End Role="LaminatorBarcodeReaderMappingMaster" Type="Self.LaminatorBarcodeReaderMappingMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LaminatorMaster">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="LaminatorBarcodeReaderMappingMaster">
+        <PropertyRef Name="LaminatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaction_Table_LaminatorBarcodeReaderMappingMaster">
+    <End Role="LaminatorBarcodeReaderMappingMaster" Type="Self.LaminatorBarcodeReaderMappingMaster" Multiplicity="1" />
+    <End Role="Transaction_Table" Type="Self.Transaction_Table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LaminatorBarcodeReaderMappingMaster">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Transaction_Table">
+        <PropertyRef Name="LaminatorBarcodeReaderMappingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MSTPLFixedBarcodeReaderDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BarcodeReaderMasters" EntityType="Self.BarcodeReaderMaster" />
+    <EntitySet Name="DeviceMasters" EntityType="Self.DeviceMaster" />
+    <EntitySet Name="ErrorCodeMasters" EntityType="Self.ErrorCodeMaster" />
+    <EntitySet Name="LaminatorBarcodeReaderMappingMasters" EntityType="Self.LaminatorBarcodeReaderMappingMaster" />
+    <EntitySet Name="LaminatorMasters" EntityType="Self.LaminatorMaster" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Transaction_Table" EntityType="Self.Transaction_Table" />
+    <EntitySet Name="UserMasters" EntityType="Self.UserMaster" />
+    <AssociationSet Name="FK_BarcodeReader_LaminatorBarcodeReaderMappingMaster" Association="Self.FK_BarcodeReader_LaminatorBarcodeReaderMappingMaster">
+      <End Role="BarcodeReaderMaster" EntitySet="BarcodeReaderMasters" />
+      <End Role="LaminatorBarcodeReaderMappingMaster" EntitySet="LaminatorBarcodeReaderMappingMasters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LaminatorBarcodeReaderMappingMaster_DeviceMaster" Association="Self.FK_LaminatorBarcodeReaderMappingMaster_DeviceMaster">
+      <End Role="DeviceMaster" EntitySet="DeviceMasters" />
+      <End Role="LaminatorBarcodeReaderMappingMaster" EntitySet="LaminatorBarcodeReaderMappingMasters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaction_Table_ErrorCodeMaster" Association="Self.FK_Transaction_Table_ErrorCodeMaster">
+      <End Role="ErrorCodeMaster" EntitySet="ErrorCodeMasters" />
+      <End Role="Transaction_Table" EntitySet="Transaction_Table" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LaminatorMaster_LaminatorBarcodeReaderMappingMaster" Association="Self.FK_LaminatorMaster_LaminatorBarcodeReaderMappingMaster">
+      <End Role="LaminatorMaster" EntitySet="LaminatorMasters" />
+      <End Role="LaminatorBarcodeReaderMappingMaster" EntitySet="LaminatorBarcodeReaderMappingMasters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaction_Table_LaminatorBarcodeReaderMappingMaster" Association="Self.FK_Transaction_Table_LaminatorBarcodeReaderMappingMaster">
+      <End Role="LaminatorBarcodeReaderMappingMaster" EntitySet="LaminatorBarcodeReaderMappingMasters" />
+      <End Role="Transaction_Table" EntitySet="Transaction_Table" />
+    </AssociationSet>
+    <FunctionImport Name="InsertNewuser">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetAllBarcodeReaderDetails" ReturnType="Collection(MSTPLFixedBarcodeReaderDBModel.sp_GetAllBarcodeReaderDetails_Result)">
+      <Parameter Name="DeviceIP" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetAllBarcodeTransactions" ReturnType="Collection(MSTPLFixedBarcodeReaderDBModel.sp_GetAllBarcodeTransactions_Result)">
+      <Parameter Name="Module_Serial_Number" Mode="In" Type="String" />
+      <Parameter Name="Barcode_Reader_Serial_Number" Mode="In" Type="String" />
+      <Parameter Name="Laminator_Number" Mode="In" Type="String" />
+      <Parameter Name="Barcode_Scan_Date" Mode="In" Type="DateTime" />
+      <Parameter Name="IsSearchOp" Mode="In" Type="Boolean" />
+      <Parameter Name="BarcodeTransID" Mode="In" Type="Int64" />
+      <Parameter Name="StartLaminatorID" Mode="In" Type="Int32" />
+      <Parameter Name="EndLaminatorID" Mode="In" Type="Int32" />
+      <Parameter Name="DeviceIP" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetAllDuplicateUsers" ReturnType="Collection(Int32)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetAllDuplicateUsersByEmail" ReturnType="Collection(Int32)">
+      <Parameter Name="UserEmail" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetBarcodeReaderDetailsByReaderID" ReturnType="Collection(MSTPLFixedBarcodeReaderDBModel.sp_GetBarcodeReaderDetailsByReaderID_Result)">
+      <Parameter Name="BarcodeReaderID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetDeviceDetailsByLaminatorBarcodeReaderMappingID" ReturnType="Collection(MSTPLFixedBarcodeReaderDBModel.sp_GetDeviceDetailsByLaminatorBarcodeReaderMappingID_Result)">
+      <Parameter Name="LaminatorBarcodeReaderMappingID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetLaminatorBarcodeReaderMappingIDByBarcodeReaderID" ReturnType="Collection(Int32)">
+      <Parameter Name="BarcodeReaderID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetLaminatorDetailsbyLaminatorBarcodeMappingID" ReturnType="Collection(MSTPLFixedBarcodeReaderDBModel.sp_GetLaminatorDetailsbyLaminatorBarcodeMappingID_Result)">
+      <Parameter Name="LaminatorBarcodeMappingID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetUserDetails" ReturnType="Collection(MSTPLFixedBarcodeReaderDBModel.sp_GetUserDetails_Result)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(MSTPLFixedBarcodeReaderDBModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(MSTPLFixedBarcodeReaderDBModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertNewuser">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_MarkBarcodeTransactionsDisplayed" />
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ReturnLoggedInUserNums" ReturnType="Collection(Int32)">
+      <Parameter Name="CurrentUserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SaveBarcodeTransaction" ReturnType="Collection(Int64)">
+      <Parameter Name="BarcodeTransactionID" Mode="In" Type="Int64" />
+      <Parameter Name="ModSerNum" Mode="In" Type="String" />
+      <Parameter Name="CreationTime" Mode="In" Type="DateTime" />
+      <Parameter Name="LaminatorBarcodeReaderMappingID" Mode="In" Type="Int32" />
+      <Parameter Name="ErrorID" Mode="In" Type="Int32" />
+      <Parameter Name="IsErrorResolved" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_GetAllBarcodeReaderDetails_Result">
+    <Property Type="Int32" Name="ID" Nullable="true" />
+    <Property Type="String" Name="SerialNumber" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="IPV4Address" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_GetAllBarcodeTransactions_Result">
+    <Property Type="Int64" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Module_Serial_Number" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="BarcodeReaderSerialNumber" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="LaminatorNumber" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="CreationTime" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="ErrorID" Nullable="true" />
+    <Property Type="String" Name="ErrorMessage" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsErrorResolved" Nullable="true" />
+    <Property Type="String" Name="DeviceIP" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_GetBarcodeReaderDetailsByReaderID_Result">
+    <Property Type="String" Name="SerialNumber" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Manufacturer" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ModelNumber" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="CreationTime" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_GetDeviceDetailsByLaminatorBarcodeReaderMappingID_Result">
+    <Property Type="Int32" Name="ID" Nullable="true" />
+    <Property Type="String" Name="IPV4Address" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MACAddress" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_GetLaminatorDetailsbyLaminatorBarcodeMappingID_Result">
+    <Property Type="Int32" Name="ID" Nullable="true" />
+    <Property Type="String" Name="LaminatorNumber" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="CreationTime" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="LaminatorBarcodeMappingID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetUserDetails_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="100" />
+    <Property Type="Boolean" Name="IsLoggedIn" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

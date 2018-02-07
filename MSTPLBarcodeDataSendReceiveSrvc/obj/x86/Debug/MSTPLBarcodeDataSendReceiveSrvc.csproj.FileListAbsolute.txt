@@ -1,0 +1,12 @@
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\NLog.config
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\MSTPLBarcodeDataSendReceiveSrvc.pdb
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\Domain.dll
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\NLog.dll
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\Persistence.dll
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\Domain.pdb
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\NLog.xml
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\bin\Debug\Persistence.pdb
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataSendReceiveSrvc.csprojResolveAssemblyReference.cache
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataSendReceiveSrvc.exe
+c:\users\sipl-sonal\documents\visual studio 2010\Projects\MSTPLBarcodeDataSendReceiveSrvc\MSTPLBarcodeDataSendReceiveSrvc\obj\x86\Debug\MSTPLBarcodeDataSendReceiveSrvc.pdb

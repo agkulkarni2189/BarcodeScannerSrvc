@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MSTPLFixedBarcodeReaderDBModelStoreContainer" CdmEntityContainer="MSTPLFixedBarcodeReaderDBEntities">
+    <EntitySetMapping Name="BarcodeReaderMasters">
+      <EntityTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.BarcodeReaderMaster">
+        <MappingFragment StoreEntitySet="BarcodeReaderMaster">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SerialNumber" ColumnName="SerialNumber" />
+          <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+          <ScalarProperty Name="ModelNumber" ColumnName="ModelNumber" />
+          <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeviceMasters">
+      <EntityTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.DeviceMaster">
+        <MappingFragment StoreEntitySet="DeviceMaster">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IPV4Address" ColumnName="IPV4Address" />
+          <ScalarProperty Name="MACAddress" ColumnName="MACAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ErrorCodeMasters">
+      <EntityTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.ErrorCodeMaster">
+        <MappingFragment StoreEntitySet="ErrorCodeMaster">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LaminatorBarcodeReaderMappingMasters">
+      <EntityTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.LaminatorBarcodeReaderMappingMaster">
+        <MappingFragment StoreEntitySet="LaminatorBarcodeReaderMappingMaster">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LaminatorID" ColumnName="LaminatorID" />
+          <ScalarProperty Name="BarcodeReaderID" ColumnName="BarcodeReaderID" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LaminatorMasters">
+      <EntityTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.LaminatorMaster">
+        <MappingFragment StoreEntitySet="LaminatorMaster">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LaminatorNumber" ColumnName="LaminatorNumber" />
+          <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transaction_Table">
+      <EntityTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.Transaction_Table">
+        <MappingFragment StoreEntitySet="Transaction_Table">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Module_Serial_Number" ColumnName="Module_Serial_Number" />
+          <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+          <ScalarProperty Name="LaminatorBarcodeReaderMappingID" ColumnName="LaminatorBarcodeReaderMappingID" />
+          <ScalarProperty Name="Displayed" ColumnName="Displayed" />
+          <ScalarProperty Name="ErrorID" ColumnName="ErrorID" />
+          <ScalarProperty Name="IsErrorResolved" ColumnName="IsErrorResolved" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserMasters">
+      <EntityTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.UserMaster">
+        <MappingFragment StoreEntitySet="UserMaster">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsLoggedIn" ColumnName="IsLoggedIn" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="InsertNewuser" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.InsertNewuser" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_GetAllBarcodeReaderDetails" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_GetAllBarcodeReaderDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.sp_GetAllBarcodeReaderDetails_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SerialNumber" ColumnName="SerialNumber" />
+          <ScalarProperty Name="IPV4Address" ColumnName="IPV4Address" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetAllBarcodeTransactions" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_GetAllBarcodeTransactions">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.sp_GetAllBarcodeTransactions_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Module_Serial_Number" ColumnName="Module_Serial_Number" />
+          <ScalarProperty Name="BarcodeReaderSerialNumber" ColumnName="BarcodeReaderSerialNumber" />
+          <ScalarProperty Name="LaminatorNumber" ColumnName="LaminatorNumber" />
+          <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+          <ScalarProperty Name="ErrorID" ColumnName="ErrorID" />
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="IsErrorResolved" ColumnName="IsErrorResolved" />
+          <ScalarProperty Name="DeviceIP" ColumnName="DeviceIP" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetAllDuplicateUsers" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_GetAllDuplicateUsers" />
+    <FunctionImportMapping FunctionImportName="sp_GetAllDuplicateUsersByEmail" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_GetAllDuplicateUsersByEmail" />
+    <FunctionImportMapping FunctionImportName="sp_GetBarcodeReaderDetailsByReaderID" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_GetBarcodeReaderDetailsByReaderID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.sp_GetBarcodeReaderDetailsByReaderID_Result">
+          <ScalarProperty Name="SerialNumber" ColumnName="SerialNumber" />
+          <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+          <ScalarProperty Name="ModelNumber" ColumnName="ModelNumber" />
+          <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetDeviceDetailsByLaminatorBarcodeReaderMappingID" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_GetDeviceDetailsByLaminatorBarcodeReaderMappingID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.sp_GetDeviceDetailsByLaminatorBarcodeReaderMappingID_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IPV4Address" ColumnName="IPV4Address" />
+          <ScalarProperty Name="MACAddress" ColumnName="MACAddress" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetLaminatorBarcodeReaderMappingIDByBarcodeReaderID" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_GetLaminatorBarcodeReaderMappingIDByBarcodeReaderID" />
+    <FunctionImportMapping FunctionImportName="sp_GetLaminatorDetailsbyLaminatorBarcodeMappingID" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_GetLaminatorDetailsbyLaminatorBarcodeMappingID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.sp_GetLaminatorDetailsbyLaminatorBarcodeMappingID_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LaminatorNumber" ColumnName="LaminatorNumber" />
+          <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+          <ScalarProperty Name="LaminatorBarcodeMappingID" ColumnName="LaminatorBarcodeMappingID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetUserDetails" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_GetUserDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.sp_GetUserDetails_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsLoggedIn" ColumnName="IsLoggedIn" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MSTPLFixedBarcodeReaderDBModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsertNewuser" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_InsertNewuser" />
+    <FunctionImportMapping FunctionImportName="sp_MarkBarcodeTransactionsDisplayed" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_MarkBarcodeTransactionsDisplayed" />
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_ReturnLoggedInUserNums" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_ReturnLoggedInUserNums" />
+    <FunctionImportMapping FunctionImportName="sp_SaveBarcodeTransaction" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_SaveBarcodeTransaction" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="MSTPLFixedBarcodeReaderDBModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>
