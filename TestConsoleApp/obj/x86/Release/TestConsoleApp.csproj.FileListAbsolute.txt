@@ -1,0 +1,1 @@
+D:\Aniket1\MSTPLBarcodeDataSendReceiveSrvc\TestConsoleApp\bin\Release\TestConsoleApp.exe.config
